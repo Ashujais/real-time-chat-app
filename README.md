@@ -533,7 +533,26 @@ curl http://localhost:5000/api/nonexistent
 
 ## APK / Screen Recording
 
-This application uses **React web** (not React Native), so no APK is generated.
+### Android APK (Successfully Generated)
+
+An Android APK has been compiled and is ready for installation or submission:
+
+- **Location**: `apk/RealTimeChat.apk` (also at `frontend/android/app/build/outputs/apk/debug/app-debug.apk`)
+- **Package Name**: `com.vedaz.realtimechat`
+- **File Size**: ~4.1 MB (`4,115,456` bytes)
+- **Target Platform**: Android 7.0 (API 24) to Android 15 (API 35)
+- **Features**: Native Android WebView container with full Socket.io and REST communication enabled, cleartext local traffic permitted for dev servers.
+
+To rebuild the APK at any time:
+```bash
+cd frontend
+npm run build
+npx cap sync android
+cd android
+$env:JAVA_HOME = "C:\Program Files\Java\jdk-17"
+$env:ANDROID_HOME = "$env:LOCALAPPDATA\Android\Sdk"
+.\gradlew.bat assembleDebug
+```
 
 ### Screen Recording Instructions
 

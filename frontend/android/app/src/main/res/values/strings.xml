@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RealTimeChat</string>
+    <string name="title_activity_main">RealTimeChat</string>
+    <string name="package_name">com.vedaz.realtimechat</string>
+    <string name="custom_url_scheme">com.vedaz.realtimechat</string>
+</resources>

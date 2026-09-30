@@ -12,6 +12,11 @@ node_modules/
 frontend/build/
 frontend/dist/
 backend/dist/
+.gradle/
+frontend/android/.gradle/
+frontend/android/build/
+frontend/android/app/build/
+frontend/android/capacitor-cordova-android-plugins/build/
 
 # Database files
 backend/data/
