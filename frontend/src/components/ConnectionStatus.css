@@ -1,0 +1,28 @@
+.connection-status-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.connected {
+  background-color: #4CAF50;
+  box-shadow: 0 0 5px #4CAF50;
+}
+
+.status-dot.disconnected {
+  background-color: #f44336;
+  box-shadow: 0 0 5px #f44336;
+}
+
+.status-text {
+  color: #666;
+  font-size: 13px;
+}

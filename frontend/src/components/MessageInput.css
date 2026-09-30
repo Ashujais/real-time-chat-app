@@ -1,0 +1,62 @@
+.message-input-wrapper {
+  padding: 16px 24px;
+  background-color: white;
+  border-top: 1px solid #e2e8f0;
+}
+
+.message-input-error {
+  color: #ef4444;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.message-input-container {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.message-input-container textarea {
+  flex: 1;
+  resize: none;
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 20px;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.4;
+  outline: none;
+  transition: border-color 0.2s;
+  max-height: 120px;
+}
+
+.message-input-container textarea:focus {
+  border-color: #0084ff;
+}
+
+.message-input-container textarea:disabled {
+  background-color: #f1f5f9;
+  cursor: not-allowed;
+}
+
+.send-button {
+  background-color: #0084ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  height: 44px;
+}
+
+.send-button:hover:not(:disabled) {
+  background-color: #0073e6;
+}
+
+.send-button:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
