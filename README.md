@@ -610,34 +610,3 @@ This project is **deployment-ready** but has not been deployed. To deploy:
 7. Deploy
 
 > **Important:** After deploying the backend, update `CLIENT_URL` to match the frontend domain for proper CORS configuration.
-
----
-
-## Submission Checklist
-
-- [ ] GitHub repository created and pushed
-- [x] Working frontend (React web)
-- [x] Working backend (Node.js + Express)
-- [x] Socket.io implementation
-- [x] REST APIs (`POST /api/messages`, `GET /api/messages`)
-- [x] Persistent message history (SQLite)
-- [x] Comprehensive README
-- [ ] Screen recording created
-- [ ] Google Drive link with screen recording
-- [x] Environment documentation (`.env.example` files)
-- [x] Typing indicator (bonus)
-- [x] Online/offline status (bonus)
-- [x] Connection status indicator (bonus)
-- [x] Input validation (frontend + backend)
-- [x] Error handling throughout
-- [x] Responsive design
-- [x] Clean project structure
-- [x] `.gitignore` configured
-
-### Google Drive Submission
-
-1. Create the screen recording following the instructions above
-2. Upload the `.mp4` file to Google Drive
-3. Right-click the file → **Share** → **General access** → **Anyone with the link**
-4. Copy the shareable link
-5. Include both the GitHub repository URL and Google Drive link in your submission
